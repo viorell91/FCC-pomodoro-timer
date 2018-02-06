@@ -1,0 +1,132 @@
+body{
+	background-color:yellow;
+}
+#title{
+	position:absolute;
+	left:2%;
+	top:5%;
+	font-family: 'Schoolbell', cursive;
+	font-size:55px;
+}
+#tomato{
+  width:600px;
+	height:auto;
+	left:30%;
+	position:absolute;
+	z-index:1;
+}
+.pomodoro_frame{
+	width:493px;
+	height:300px;
+	left:33.5%;
+	top:148px;
+	position:relative;
+	/* border-color:black;
+	border-style: solid;
+  border-width: 1px; */
+	overflow:hidden;
+	z-index:2;
+}
+#scale1{
+	width:495px;
+	position:absolute;
+	margin-left:-220px;
+	background:transparent;
+	z-index:3;
+}
+
+#scale2{
+	width:495px;
+	margin-left:250px;
+	position:absolute;
+	background:transparent;
+	z-index:3;
+}
+
+#scale3{
+	width:495px;
+	margin-left:720px;
+	position:absolute;
+	background:transparent;
+	z-index:3;
+}
+
+.slider{
+	position:absolute;
+	top:40%;
+	left:-90%;
+	z-index:4;
+}
+#limiting-container{
+	width:600px;
+	height:300px;
+	top:35%;
+	left:0px;
+	position:absolute;
+/* 	border-color:black;
+	border-style: solid;
+  border-width: 1px; */
+}
+#display{
+	position:absolute;
+	left:40%;
+	top:10%;
+	font-family: 'Schoolbell', cursive;
+	font-size:55px;
+	color:white;
+	z-index:4;
+}
+#start{
+	position:absolute;
+	background: url( 'https://drive.google.com/uc?export=view&id=0B6Opt7MM7aOeQUs0Nm1kcl9sOGc' ) no-repeat;
+	cursor:pointer;
+	border:none;
+  background-size: auto;
+  height: 70px;  
+  width: 60px;
+}
+#pause{
+	position:relative;
+	background: url( 'https://drive.google.com/uc?export=view&id=0B6Opt7MM7aOeaVRzMS1lWVA5elE' ) no-repeat;
+	cursor:pointer;
+	border:none;
+  background-size: auto;
+  height: 70px;  
+  width: 60px;
+	display: none;
+}
+#reset{
+	position:absolute;
+	left:0%;
+	top:50%;
+	background: url( 'https://drive.google.com/uc?export=view&id=0B6Opt7MM7aOeZHpRSG8td1RtdDg' ) no-repeat;
+	cursor:pointer;
+	border:none;
+  background-size: auto;
+  height: 70px;  
+  width: 60px;
+}
+.controls{
+	position:absolute;
+	width:200px;
+	height:200px;
+	top:35%;
+	left:75%;
+/* 	border-color:black;
+	border-style: solid;
+  border-width: 1px; */
+}
+#instruction{
+	position:absolute;
+	font-family: 'Bad Script', cursive;
+	color:#d14d02;
+	left:70%;
+	top:15%;
+}
+#arrow{
+	position:absolute;
+	top:21%;
+	left:60%;
+	height:140px;
+	z-index:5;
+}
